@@ -1,0 +1,87 @@
+{
+    "luxury_rules": {
+        "style_definition": {
+            "vibe": "High-Fashion, Minimalist, Elegant, Airy",
+            "colors": {
+                "palette": "Neutral (White, Black, Cream)",
+                "accents": "Gold (Subtle highlights), Light Gray (Dividers)",
+                "background": "White or Cream (#FAFAFA)"
+            },
+            "typography": {
+                "font_family_headings": "Didot, Playfair Display, or refined Sans-Serif (Helvetica Neue)",
+                "font_family_body": "Helvetica Neue, Inter, Arial (Thin weights)",
+                "sizing": "Small, delicate, premium. No massive shouting text.",
+                "whitespace": "Generous. Text elements need room to breathe."
+            },
+            "shapes": {
+                "corners": "Sharp (0px) or Minimal Rounding (2px)",
+                "buttons": "Thin, rectangular or pill. Monochromatic."
+            }
+        },
+        "layout": {
+            "header": {
+                "style": "Transparent or Cream background. Slim height.",
+                "navigation_type": "Hamburger Menu (Left/Center)",
+                "logo_position": "Center or Left",
+                "icons": "Right aligned (Search, User, Cart, Wishlist). USE 'LUCIDE-REACT' or 'PHOSPHOR' ONLY. Stoke-width: 1px or 1.5px. CART ICON MUST BE A BAG (ShoppingBag), NEVER A BOX (Package).",
+                "menu_behavior": "OFF-CANVAS SLIDE-IN (Left, 25% width on Desktop). INTERACTION: On Desktop Hover -> Text Underlines, Small Arrow appears right, Subcategory Div appears INSTANTLY to the right (No Animation). On Mobile -> Subcategory Div SLIDES IN from right (Covering view)."
+            },
+            "hero": {
+                "type": "Full-width Banner or Subtle Slider",
+                "content": "Minimal text (Collection Name). No buttons on image if possible, or very subtle.",
+                "autoplay": "No autoplay video unless very slow/subtle."
+            },
+            "product_grid": {
+                "columns_desktop": "4 or 5 columns",
+                "columns_mobile": "2 or 3 columns",
+                "gap": "Very small (1px) or None. Minimal borders.",
+                "layout_pattern": "BENTO GRID / MIXED HEIGHT. Every 3rd item should be 'Featured' (Span 2 cols, Span 2 rows).",
+                "card_style": "Image dominant. Info block below (White bg). Left: Name. Below: Price. Right: Color dots."
+            },
+            "pdp": {
+                "layout": "Split View (Full Height). Left: Gallery (Grid/Scroll). Right: Sticky Info.",
+                "gallery": "Large high-res images, full width of the column.",
+                "info_density": "High whitespace. Clean typography.",
+                "buttons": "Full width 'Add to Cart', minimal style."
+            },
+            "cart": {
+                "layout": "Full Page Overlay or Split View. Minimalist List.",
+                "style": "Clean rows, small images. Prominent but minimal 'Checkout' button. Icons: Use 'Trash2' (Bin) or 'X' (Close) - Thin strokes."
+            }
+        },
+        "components": {
+            "buttons": {
+                "default": "px-6 py-2 border border-black text-black hover:bg-black hover:text-white transition-colors duration-300 text-xs uppercase tracking-widest",
+                "primary": "bg-black text-white hover:bg-neutral-800 text-xs uppercase tracking-widest"
+            },
+            "cards": {
+                "wrapper": "group relative border-[0.5px] border-neutral-100",
+                "image": "aspect-[3/4] object-cover w-full h-full",
+                "info": "p-3 bg-white flex justify-between items-start"
+            },
+            "icons": {
+                "library": "lucide-react",
+                "style": "stroke-width={1} (Ultra Thin)",
+                "forbidden": [
+                    "Package (Box)",
+                    "ShoppingCart (Standard Cart)",
+                    "Menu (Thick)"
+                ],
+                "required": [
+                    "ShoppingBag (for Cart)",
+                    "AlignLeft (for Menu - Thin)",
+                    "Search (Thin)",
+                    "Heart (Thin)"
+                ]
+            }
+        },
+        "anti_patterns": [
+            "Colorful buttons",
+            "Box shadows/Elevated cards",
+            "Large generic margins",
+            "Carousels with fast autoplay",
+            "Standard Bootstrap Grids",
+            "Generic 'Box' Icon for Cart"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+# Docker Compose for Medusa Shop Generator
+# Provides PostgreSQL database for generated shops
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: medusa-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: medusa
+      POSTGRES_PASSWORD: medusa
+      POSTGRES_DB: medusa
+    ports:
+      - "5432:5432"
+    volumes:
+      - medusa_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U medusa -d medusa"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Redis for Medusa (optional, for production features)
+  redis:
+    image: redis:7-alpine
+    container_name: medusa-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  medusa_data:
+  redis_data:

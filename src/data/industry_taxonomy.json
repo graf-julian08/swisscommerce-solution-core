@@ -1,0 +1,69 @@
+{
+    "industries": [
+        {
+            "id": "fashion",
+            "keywords": [
+                "fashion",
+                "clothing",
+                "wear",
+                "shirt",
+                "dress",
+                "jeans",
+                "apparel",
+                "boutique",
+                "brand",
+                "jacket",
+                "coat",
+                "style",
+                "look",
+                "mode",
+                "outfit"
+            ],
+            "vibe_keywords": [
+                "luxury",
+                "minimal",
+                "streetwear",
+                "elegant",
+                "chic"
+            ],
+            "blueprint_path": "public/references/industries/fashion_luxury.json",
+            "crawler_category": "fashion_luxury"
+        },
+        {
+            "id": "toys",
+            "keywords": [
+                "toy",
+                "lego",
+                "doll",
+                "game",
+                "puzzle",
+                "kids",
+                "child",
+                "play",
+                "fun",
+                "action figure",
+                "board game",
+                "plush"
+            ],
+            "blueprint_path": "public/references/industries/toys_playful.json",
+            "crawler_category": "toys_hobbies"
+        },
+        {
+            "id": "beauty",
+            "keywords": [
+                "beauty",
+                "skin",
+                "makeup",
+                "cosmetic",
+                "perfume",
+                "cream",
+                "serum",
+                "fragrance",
+                "lip",
+                "eye"
+            ],
+            "blueprint_path": "public/references/industries/beauty_cosmetics.json",
+            "crawler_category": "beauty_cosmetics"
+        }
+    ]
+}

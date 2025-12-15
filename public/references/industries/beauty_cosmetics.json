@@ -1,0 +1,48 @@
+{
+    "luxury_rules": {
+        "philosophy": {
+            "core": "Design not for utility, but for desire. Every pixel must justify its existence.",
+            "anti_patterns": [
+                "Standard Bootstrap/Tailwind Grids",
+                "Generic Headings ('Welcome', 'Our Products')",
+                "Default Box Shadows",
+                "Visible Containers (Cards with borders)",
+                "Loading Spinners (Use Skeleton or Blur)"
+            ]
+        },
+        "layout": {
+            "grid_philosophy": "DERIVED FROM REFERENCE. If the reference is chaotic, be chaotic. If it is rigid, be rigid. Do not use a default system.",
+            "whitespace": "MATCH REFERENCE DENSITY. If the reference uses 50% whitespace, you use 50%.",
+            "container": "w-full",
+            "padding_base": "MATCH REFERENCE",
+            "section_spacing": "MATCH REFERENCE"
+        },
+        "typography": {
+            "headline_display": "MATCH REFERENCE VIBE. Use Serif if reference is Elegant. Use Mono if reference is Tech. Use Sans if reference is Modern.",
+            "headline_functional": "font-sans font-light text-2xl md:text-4xl tracking-normal text-neutral-900",
+            "body": "font-sans text-sm md:text-base text-neutral-600 leading-[1.8] max-w-[60ch]",
+            "micro": "font-mono uppercase text-[10px] tracking-[0.25em] text-neutral-400"
+        },
+        "motion": {
+            "curve": "cubic-bezier(0.22, 1, 0.36, 1)",
+            "duration_base": "0.8s",
+            "stagger": "0.1s",
+            "scroll_trigger": "Elements must reveal themselves slowly on scroll (Fade + Y-Axis Slide)."
+        },
+        "components": {
+            "button": {
+                "style": "MATCH REFERENCE. If reference has pill buttons, use pill. If rectangular, use rectangular.",
+                "text": "uppercase tracking-widest font-medium",
+                "hover_effect": "Make it alive. Scale, Color Swap, or Fill."
+            },
+            "input": {
+                "base": "w-full bg-transparent border-b border-black/10 py-6 text-xl font-light text-black placeholder-neutral-300 focus:outline-none focus:border-black transition-all duration-500",
+                "label": "uppercase text-[10px] tracking-widest text-neutral-400 mb-2 block"
+            },
+            "image": {
+                "wrapper": "overflow-hidden bg-neutral-100",
+                "effect": "MATCH REFERENCE. Zoom, Parallax, or grayscale toggle."
+            }
+        }
+    }
+}

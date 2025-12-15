@@ -1,0 +1,366 @@
+{
+    "version": "1.0.0",
+    "lastUpdated": "2025-12-12",
+    "designs": [
+        {
+            "id": "design1",
+            "name": "Louis Vuitton Maison",
+            "componentPath": "@/components/site-components/fashion/header/Design1",
+            "vibe": [
+                "luxury",
+                "classic",
+                "lv-style",
+                "maison",
+                "elegant"
+            ],
+            "layout": "logo-center",
+            "logoStyle": "uppercase",
+            "fontStyle": "sans-serif",
+            "fontFamily": "Helvetica Neue",
+            "animationStyle": "slide",
+            "menuDirection": "left",
+            "cartDirection": "right",
+            "searchStyle": "two-part-slide",
+            "features": [
+                "floating-menu-button",
+                "animated-hamburger",
+                "mini-cart",
+                "search-overlay",
+                "scroll-shadow"
+            ],
+            "description": "Classic Louis Vuitton inspired layout with floating menu button, centered logo, and two-part slide search overlay."
+        },
+        {
+            "id": "design2",
+            "name": "Prada Mega Menu",
+            "componentPath": "@/components/site-components/fashion/header/Design2",
+            "vibe": [
+                "luxury",
+                "prada-style",
+                "sophisticated",
+                "elegant",
+                "multi-column"
+            ],
+            "layout": "logo-left",
+            "logoStyle": "uppercase",
+            "fontStyle": "sans-serif",
+            "fontFamily": "Helvetica Neue",
+            "animationStyle": "instant",
+            "menuDirection": "dropdown",
+            "cartDirection": "right",
+            "searchStyle": "fullscreen",
+            "features": [
+                "promo-bar",
+                "mega-menu",
+                "category-dropdowns",
+                "wishlist-indicator",
+                "mobile-slide-menu"
+            ],
+            "description": "Prada-inspired header with rich mega menu dropdowns, unique layouts per category, and promo bar."
+        },
+        {
+            "id": "design3",
+            "name": "The Row Split Nav",
+            "componentPath": "@/components/site-components/fashion/header/Design3",
+            "vibe": [
+                "minimal",
+                "the-row",
+                "refined",
+                "split-nav",
+                "sophisticated"
+            ],
+            "layout": "logo-center-split",
+            "logoStyle": "uppercase",
+            "fontStyle": "sans-serif",
+            "fontFamily": "Inter",
+            "animationStyle": "slide",
+            "menuDirection": "dropdown",
+            "cartDirection": "right",
+            "searchStyle": "overlay",
+            "features": [
+                "split-navigation",
+                "varied-mega-menus",
+                "promo-bar",
+                "mobile-menu"
+            ],
+            "description": "Ultra-minimal The Row inspired header with centered logo between split navigation and creative mega menus."
+        },
+        {
+            "id": "design4",
+            "name": "Horizontal Nav Bar",
+            "componentPath": "@/components/site-components/fashion/header/Design4",
+            "vibe": [
+                "modern",
+                "clean",
+                "horizontal",
+                "accessible"
+            ],
+            "layout": "logo-left",
+            "logoStyle": "uppercase",
+            "fontStyle": "sans-serif",
+            "fontFamily": "Inter",
+            "animationStyle": "slide",
+            "menuDirection": "dropdown",
+            "cartDirection": "right",
+            "searchStyle": "overlay",
+            "features": [
+                "horizontal-nav",
+                "dropdown-navigation",
+                "unified-icons",
+                "responsive"
+            ],
+            "description": "Modern header with horizontal visible navigation, unified icon set, and clean dropdown menus."
+        },
+        {
+            "id": "design5",
+            "name": "Cartier Minimal Float",
+            "componentPath": "@/components/site-components/fashion/header/Design5",
+            "vibe": [
+                "jewellery",
+                "cartier",
+                "van-cleef",
+                "ultra-minimal",
+                "floating",
+                "high-end"
+            ],
+            "layout": "logo-center",
+            "logoStyle": "uppercase",
+            "fontStyle": "sans-serif",
+            "fontFamily": "Inter",
+            "animationStyle": "slide",
+            "menuDirection": "left",
+            "cartDirection": "right",
+            "searchStyle": "two-part-slide",
+            "features": [
+                "frosted-glass",
+                "full-screen-menu",
+                "categorized-nav",
+                "backdrop-blur",
+                "premium-spacing"
+            ],
+            "description": "Cartier/Van Cleef inspired ultra-minimal header with frosted glass effect and full-screen expandable menu."
+        },
+        {
+            "id": "design6",
+            "name": "Editorial Asymmetric",
+            "componentPath": "@/components/site-components/fashion/header/Design6",
+            "vibe": [
+                "editorial",
+                "vogue",
+                "harpers-bazaar",
+                "asymmetric",
+                "magazine"
+            ],
+            "layout": "logo-center",
+            "logoStyle": "uppercase",
+            "fontStyle": "sans-serif",
+            "fontFamily": "Helvetica Neue",
+            "animationStyle": "slide",
+            "menuDirection": "left",
+            "cartDirection": "right",
+            "searchStyle": "two-part-slide",
+            "features": [
+                "floating-menu-button",
+                "animated-hamburger",
+                "desktop-nav-preview",
+                "editorial-aesthetic"
+            ],
+            "description": "Magazine/editorial aesthetic with asymmetric split layout, bold typography, and floating menu button."
+        },
+        {
+            "id": "design7",
+            "name": "Acne Studios Brutalist",
+            "componentPath": "@/components/site-components/fashion/header/Design7",
+            "vibe": [
+                "scandinavian",
+                "acne",
+                "brutalist",
+                "modern",
+                "lowercase",
+                "streetwear"
+            ],
+            "layout": "logo-center",
+            "logoStyle": "lowercase",
+            "fontStyle": "sans-serif",
+            "fontFamily": "Helvetica Neue",
+            "animationStyle": "slide",
+            "menuDirection": "left",
+            "cartDirection": "right",
+            "searchStyle": "two-part-slide",
+            "features": [
+                "text-based-nav",
+                "lowercase-typography",
+                "large-menu-text",
+                "thin-borders"
+            ],
+            "description": "Acne Studios inspired brutalist header with all-lowercase typography and text-based navigation."
+        },
+        {
+            "id": "design8",
+            "name": "Aesop Editorial Split",
+            "componentPath": "@/components/site-components/fashion/header/Design8",
+            "vibe": [
+                "editorial",
+                "aesop",
+                "cos",
+                "two-row",
+                "centered-logo"
+            ],
+            "layout": "logo-center",
+            "logoStyle": "uppercase",
+            "fontStyle": "sans-serif",
+            "fontFamily": "Helvetica Neue",
+            "animationStyle": "slide-bottom",
+            "menuDirection": "bottom",
+            "cartDirection": "bottom",
+            "searchStyle": "inline-expand",
+            "features": [
+                "two-row-header",
+                "utilities-bar",
+                "bottom-slide-menu",
+                "rounded-cart",
+                "staggered-animations"
+            ],
+            "description": "Aesop/COS inspired two-row header with centered large logo, menu/cart sliding from bottom."
+        },
+        {
+            "id": "design9",
+            "name": "Ralph Lauren Americana",
+            "componentPath": "@/components/site-components/fashion/header/Design9",
+            "vibe": [
+                "americana",
+                "ralph-lauren",
+                "tommy",
+                "classic",
+                "heritage",
+                "preppy"
+            ],
+            "layout": "logo-left",
+            "logoStyle": "uppercase",
+            "fontStyle": "serif",
+            "fontFamily": "Georgia",
+            "animationStyle": "slide",
+            "menuDirection": "right",
+            "cartDirection": "link",
+            "searchStyle": "fade",
+            "features": [
+                "serif-logo",
+                "navy-promo-bar",
+                "mega-dropdown",
+                "nav-underline-animation",
+                "no-mini-cart"
+            ],
+            "description": "Ralph Lauren inspired classic Americana header with serif logo, navy promo bar, and hover mega-dropdowns."
+        },
+        {
+            "id": "design10",
+            "name": "Jil Sander Grid",
+            "componentPath": "@/components/site-components/fashion/header/Design10",
+            "vibe": [
+                "architectural",
+                "jil-sander",
+                "the-row",
+                "grid",
+                "structural",
+                "minimal"
+            ],
+            "layout": "logo-center-grid",
+            "logoStyle": "uppercase",
+            "fontStyle": "sans-serif",
+            "fontFamily": "Helvetica Neue",
+            "animationStyle": "slide",
+            "menuDirection": "left",
+            "cartDirection": "right",
+            "searchStyle": "morph-header",
+            "features": [
+                "css-grid",
+                "vertical-borders",
+                "numbered-menu",
+                "split-screen-cart",
+                "ultra-thin-borders"
+            ],
+            "description": "Jil Sander inspired architectural header with CSS grid layout, vertical separators, and numbered menu items."
+        },
+        {
+            "id": "design11",
+            "name": "Ultimate Luxury",
+            "componentPath": "@/components/site-components/fashion/header/Design11",
+            "vibe": [
+                "luxury",
+                "lv-style",
+                "prada",
+                "bottega",
+                "ultimate",
+                "production-ready"
+            ],
+            "layout": "logo-center",
+            "logoStyle": "uppercase",
+            "fontStyle": "sans-serif",
+            "fontFamily": "Helvetica Neue",
+            "animationStyle": "slide",
+            "menuDirection": "left",
+            "cartDirection": "right",
+            "searchStyle": "slide-top",
+            "features": [
+                "animated-hamburger",
+                "mini-cart",
+                "search-trending",
+                "scroll-shadow",
+                "proper-z-index",
+                "full-backdrop"
+            ],
+            "description": "The ultimate luxury header combining best practices from LV, Prada, and Bottega Veneta. Production ready."
+        }
+    ],
+    "vibeKeywords": {
+        "luxury": [
+            "luxury",
+            "high-end",
+            "premium",
+            "exclusive",
+            "elegant"
+        ],
+        "minimal": [
+            "minimal",
+            "clean",
+            "simple",
+            "understated",
+            "quiet"
+        ],
+        "editorial": [
+            "editorial",
+            "magazine",
+            "vogue",
+            "fashion-forward"
+        ],
+        "brutalist": [
+            "brutalist",
+            "bold",
+            "modern",
+            "scandinavian",
+            "stark"
+        ],
+        "classic": [
+            "classic",
+            "timeless",
+            "heritage",
+            "traditional",
+            "americana"
+        ],
+        "architectural": [
+            "architectural",
+            "structural",
+            "geometric",
+            "grid"
+        ]
+    },
+    "matchingLogic": {
+        "defaultDesign": "design11",
+        "fallbackDesign": "design1",
+        "priorityVibes": [
+            "luxury",
+            "minimal",
+            "editorial"
+        ]
+    }
+}

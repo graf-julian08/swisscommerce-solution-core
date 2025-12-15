@@ -1,0 +1,151 @@
+[
+    {
+        "id": "apple",
+        "brand": "Apple (Tech Minimal)",
+        "dna": {
+            "typography": {
+                "heading": "SF Pro Display (or Inter), Heavy weight, Tight tracking",
+                "body": "SF Pro Text (or Roboto), Regular weight, High legibility",
+                "rules": "Massive headings (80px+), tiny legal text (12px), high contrast"
+            },
+            "colors": {
+                "palette": [
+                    "#F5F5F7",
+                    "#1D1D1F",
+                    "#0071E3",
+                    "#86868b"
+                ],
+                "background": "Off-white (#F5F5F7) or Deep Black (#000000)",
+                "vibe": "Clinically clean, Premium, Trustworthy"
+            },
+            "layout": {
+                "structure": "Bento Grids, Full-width Hero with centered product, Sticky scroll sections",
+                "spacing": "Excessive whitespace (120px+ between sections)",
+                "ui_patterns": "Glassmorphism nav, rounded corners (20px-30px), subtle shadows"
+            },
+            "interaction": {
+                "animation": "Scroll-triggered zoom, fade-in with slide-up, smooth parity",
+                "micro": "Subtle scale on button hover, semantic colors"
+            }
+        }
+    },
+    {
+        "id": "gucci",
+        "brand": "Gucci (Eclectic Luxury)",
+        "dna": {
+            "typography": {
+                "heading": "Grifinito (or Playfair Display), Italic/Serif mix",
+                "body": "Futura (or Jost), Geometric Sans, Uppercase",
+                "rules": "Elegant serif headlines overlaid on images, wide tracking for navigation"
+            },
+            "colors": {
+                "palette": [
+                    "#1A1A1A",
+                    "#FFFFFF",
+                    "#C5A580",
+                    "#2C5234"
+                ],
+                "background": "Rich dark tones or Pastel accents",
+                "vibe": "Eclectic, Bold, Historic yet modern"
+            },
+            "layout": {
+                "structure": "Asymmetrical collage, Overlapping images, Magazine style",
+                "spacing": "Tight but chaotic (controlled chaos)",
+                "ui_patterns": "Thin 1px borders, gold accents, no shadows (flat luxury)"
+            },
+            "interaction": {
+                "animation": "Parallax image layers, snaps-to-grid",
+                "micro": "Text underline animation, cursor inversion"
+            }
+        }
+    },
+    {
+        "id": "rolex",
+        "brand": "Rolex (Corporate Heritage)",
+        "dna": {
+            "typography": {
+                "heading": "Garamond (or Cinzel), Classic Serif, Uppercase",
+                "body": "Helvetica Neue (or Arimo), Clean Sans",
+                "rules": "Traditional hierarchy, centered headings, very formal"
+            },
+            "colors": {
+                "palette": [
+                    "#006039",
+                    "#A37E2C",
+                    "#F4F4F4",
+                    "#212121"
+                ],
+                "background": "White or specific Rolex Green",
+                "vibe": "Timeless, Wealthy, Established"
+            },
+            "layout": {
+                "structure": "Split screen (Image/Text), Carousel sliders, Full-bleed video",
+                "spacing": "Symmetrical, rhythmic, predictable",
+                "ui_patterns": "Gold buttons, sharp edges"
+            },
+            "interaction": {
+                "animation": "Slow, majestic fades, video auto-play",
+                "micro": "Gold shimmer effects"
+            }
+        }
+    },
+    {
+        "id": "awwwards",
+        "brand": "Awwwards Winner (Brutalist Avant-Garde)",
+        "dna": {
+            "typography": {
+                "heading": "Clash Display (or Syne), Distorted, Massive",
+                "body": "Space Mono (or JetBrains Mono), Technical, Small",
+                "rules": "Typography as image, breaking the grid, kinetic type"
+            },
+            "colors": {
+                "palette": [
+                    "#E0FE52",
+                    "#000000",
+                    "#FFFFFF",
+                    "#FF3333"
+                ],
+                "background": "Black or Acid Green",
+                "vibe": "Disruptive, Digital-First, Aggressive"
+            },
+            "layout": {
+                "structure": "Horizontal scroll, Drag-to-explore, WebGL canvas",
+                "spacing": "Zero spacing or random whitespace",
+                "ui_patterns": "Marquee text, custom cursor, loader screens"
+            },
+            "interaction": {
+                "animation": "Liquid distortion, WebGL particle effects, velocity-based scroll",
+                "micro": "Magnetic buttons, noise grain overlay"
+            }
+        }
+    },
+    {
+        "id": "balenciaga",
+        "brand": "Balenciaga (Anti-Design)",
+        "dna": {
+            "typography": {
+                "heading": "Arial (or System Font), Plain, Unstyled",
+                "body": "Courier New, Monospaced",
+                "rules": "Intentionally ugly, default browser styles, tiny text"
+            },
+            "colors": {
+                "palette": [
+                    "#D3D3D3",
+                    "#000000",
+                    "#333333"
+                ],
+                "background": "Light Grey (Concrete)",
+                "vibe": "Post-apocalyptic, Raw, Dystopian"
+            },
+            "layout": {
+                "structure": "Excel-sheet grid, infinite scroll",
+                "spacing": "Dense, utilitarian",
+                "ui_patterns": "Standard browser inputs, debug-style borders"
+            },
+            "interaction": {
+                "animation": "Glitch, harsh cut",
+                "micro": "None or abrupt hover states"
+            }
+        }
+    }
+]
