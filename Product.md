@@ -2,6 +2,8 @@
 
 ## Zielsetzung: Bis im Juni 2026 minimum ein Kunde haben.
 
+## Grundidee: Das ganze Prinzip von E-Commerce im schweizerischen Markt soll so einfach dargestellt werden, dass alle Bäcker, Handwerker und kleine Geschäfte sich mit einem Klick auf "Shop erstellen" einen eigenen Shop erstellen können.
+
 **Version:** 0.1.0-alpha
 **Type:** Full-Stack E-Commerce Framework
 **License:** Proprietary / Internal
