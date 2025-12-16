@@ -1,0 +1,69 @@
+// Prisma Schema for Shop Builder SaaS
+// Database: Neon PostgreSQL
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================================
+// SHOP MODEL
+// Stores generated shop configurations
+// ============================================================
+
+model Shop {
+  id          String   @id @default(cuid())
+  slug        String   @unique // Used for subdomain: slug.aproteatelier.com
+  name        String
+  description String?
+  
+  // The complete DSL configuration (JSON)
+  dsl         Json
+  
+  // Shop metadata
+  status      ShopStatus @default(DRAFT)
+  isPublic    Boolean    @default(true)
+  
+  // Original prompt used to generate the shop
+  prompt      String?
+  
+  // Timestamps
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  // Optional owner (for future auth)
+  ownerId     String?
+  owner       User?    @relation(fields: [ownerId], references: [id])
+  
+  @@index([slug])
+  @@index([status])
+  @@index([createdAt])
+}
+
+enum ShopStatus {
+  DRAFT      // Being generated
+  ACTIVE     // Live and accessible
+  PAUSED     // Temporarily disabled
+  ARCHIVED   // Soft deleted
+}
+
+// ============================================================
+// USER MODEL
+// For future authentication
+// ============================================================
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  
+  // Shops owned by this user
+  shops     Shop[]
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

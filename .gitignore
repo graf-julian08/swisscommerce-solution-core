@@ -47,3 +47,5 @@ generated-site/
 *.dmg
 *.zip
 
+
+/src/generated/prisma
