@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Large folders - don't commit
+Web-Crawler/
+generated-shops/
+generated-site/
+*.dmg
+*.zip
+
